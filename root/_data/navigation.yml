@@ -4,6 +4,8 @@
   link: /about.html
 - name: Blog
   link: /blog.html
+- name: Docs
+  link: /docs.html
 - name: Staff
   link: /staff.html
 - name: Search

@@ -1,0 +1,13 @@
+---
+title: Docs
+---
+<h1>Docs</h1>
+<ul>
+    {% for doc in site.docs %}
+        <li>
+            <h2><a href="{{ doc.url }}">{{ doc.title }}</a></h2>
+            {{ doc.excerpt }}
+        </li>
+    {% endfor %}
+
+</ul>
