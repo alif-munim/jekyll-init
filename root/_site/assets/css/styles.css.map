@@ -6,9 +6,9 @@
 		"_sass/main.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";\r\n\r\n* {\r\n    margin: 10px;\r\n}",
+		"@import \"main\";\r\n\r\n* {\r\n    margin: 10px;\r\n}\r\n\r\n.list-group-item {\r\n    margin: 0;\r\n}",
 		".current {\r\n    color: green;\r\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf;;ADAD,AAAA,CAAC,CAAC,EACE,MAAM,EAAE,IAAI,GACf"
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf;;ADAD,AAAA,CAAC,CAAC,EACE,MAAM,EAAE,IAAI,GACf;;AAED,AAAA,gBAAgB,CAAC,EACb,MAAM,EAAE,CAAC,GACZ"
 }
