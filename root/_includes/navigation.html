@@ -7,4 +7,9 @@
             {{ item.name }}
         </a>
     {% endfor %}
+    <form class="form-inline my-2 my-lg-0" action="/search.html" method="get">
+        <input class="form-control mr-sm-2" type="text" id="search-box" name="query">
+        <!-- <input type="submit" value="search"> -->
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
 </nav>
