@@ -2,9 +2,9 @@
 title: Docs
 ---
 <h1>Docs</h1>
-<ul>
+<ul class="list-group">
     {% for doc in site.docs %}
-        <li>
+        <li class="list-group-item">
             <h2><a href="{{ doc.url }}">{{ doc.title }}</a></h2>
             {{ doc.excerpt }}
         </li>

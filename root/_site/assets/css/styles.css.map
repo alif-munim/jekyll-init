@@ -6,9 +6,9 @@
 		"_sass/main.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";",
+		"@import \"main\";\r\n\r\n* {\r\n    margin: 10px;\r\n}",
 		".current {\r\n    color: green;\r\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf"
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf;;ADAD,AAAA,CAAC,CAAC,EACE,MAAM,EAAE,IAAI,GACf"
 }
